@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("fonts/Roboto-Bold.ttf");
+}
+
+/* Apply the font globally */
+root {
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-width: 0; /* Remove border */
+}
+
+
+/* Title style */
+.title-label {
+    -fx-font-family: "Roboto Bold";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #1E90FF; /* Blue color */
+    -fx-text-fill: #000000; /* White text */
+    -fx-padding: 5 20; /* Adjust padding for slimmer and wider button */
+    -fx-border-radius: 10; /* Rounded edges */
+    -fx-background-radius: 10;
+    -fx-font-size: 14px; /* Adjust font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-cursor: hand;
+}
+
+/* Title Styling */
+.title-label {
+    -fx-font-family: "Roboto Bold";
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.category-button, .priority-button {
+    -fx-background-color: transparent; /* No background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-padding: 10 20; /* Larger padding for a taller button */
+    -fx-border: none; /* Remove border */
+    -fx-cursor: hand; /* Change cursor to a hand when hovering over the button */
+}
+
+.category-button, .priority-button {
+    -fx-background-color: transparent; /* No background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-padding: 10 20; /* Larger padding for a taller button */
+    -fx-border: none; /* Remove border */
+    -fx-cursor: hand; /* Change cursor to a hand when hovering over the button */
+}
+
+.category-button:hover, .priority-button:hover {
+    -fx-text-fill: #252728; /* Change text color when hovered */
+    -fx-font-size: 14px; /* Slightly larger font on hover */
+}
+
+.category-button {
+    -fx-font-size: 14px; /* Larger font for category buttons */
+}
+
+.priority-button {
+    -fx-font-size: 14px; /* Keep medium font for priority buttons */
+}
+.combo-box {
+    -fx-background-color: #646464; /* Gray background */
+    -fx-font-size: 14px;          /* Font size */
+    -fx-text-fill: white;         /* Text color */
+}
+.combo-box .arrow {
+    -fx-background-color: white;   /* Arrow color */
+    -fx-padding: 5px;              /* Adjust padding */
+    -fx-shape: "M0,0 L6,0 L3,6 Z"; /* Inverted triangle (\/ shape) */
+}
+/* Style for Prompt Text */
+.combo-box .text {
+    -fx-fill: white; /* White text for prompt */
+}
+.combo-box-popup .list-view {
+    -fx-background-color: #6c6c6c; /* Match ComboBox background */
+    -fx-border-color: transparent; /* Remove borders from the ListView */
+}
+
+/* Target individual cells in the dropdown */
+.combo-box-popup .list-view .list-cell {
+    -fx-background-color: #6c6c6c; /* Match ComboBox background */
+    -fx-border-width: 0;           /* Remove borders */
+    -fx-border-color: transparent; /* Ensure no border color */
+    -fx-text-fill: white;          /* White text for items */
+}
+
+/* Optional: Hover effect for dropdown cells */
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #464646; /* Darker gray on hover */
+}
+.combo-box {
+    -fx-cursor: hand; /* Hand cursor */
+}
+/* Change cursor to hand for the dropdown cells */
+.combo-box-popup .list-view .list-cell {
+    -fx-cursor: hand; /* Hand cursor for the cells */
+}
+.combo-box-popup .list-view .list-cell {
+    -fx-cursor: hand; /* Hand cursor for the cells */
+    -fx-text-fill: white; /* Default text color for cells */
+    -fx-background-color: #6c6c6c; /* Default background color */
+}

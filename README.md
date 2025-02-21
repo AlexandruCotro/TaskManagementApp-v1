@@ -18,7 +18,7 @@ A **Java-based task management application** designed to help users organize and
 - **Maven** (Dependency Management)
 
 ## Setup & Installation
-1.Download the repo and extract the folder contaning the app
+1.Download the repo and extract the folder contaning the app </br>
 2.For this to work, you need to have an updated jdk version and java installed: 
-https://www.oracle.com/java/technologies/downloads/
+https://www.oracle.com/java/technologies/downloads/ </br>
 3.After installation, open TaskManagementApp and enjoy!😊
